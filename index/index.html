@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> <!-- Set character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design for mobile devices -->
+    <title>Form Example</title> <!-- Title of the page -->
+</head>
+
+<body>
+    <h2>POST Method Form</h2> <!-- Main heading of the page -->
+
+    <!-- Form for user input (POST method) -->
+    <form action="/name" method="POST"> <!-- Sends data to /name via POST method -->
+        First name: <input type="text" name="firstname"><br> <!-- Input for first name -->
+        Last name: <input type="text" name="lastname"><br> <!-- Input for last name -->
+        <input type="submit" value="Submit"> <!-- Submit button -->
+    </form>
+
+    <h2>GET Method Form</h2> <!-- Heading for the GET method form -->
+
+    <!-- Form for user input (GET method) -->
+    <form action="/name" method="GET"> <!-- Sends data to /name via GET method -->
+        First name: <input type="text" name="firstname"><br> <!-- Input for first name -->
+        Last name: <input type="text" name="lastname"><br> <!-- Input for last name -->
+        <input type="submit" value="Submit"> <!-- Submit button -->
+    </form>
+</body>
+
+</html>
